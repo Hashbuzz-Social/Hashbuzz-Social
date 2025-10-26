@@ -56,6 +56,9 @@ A simple diagram (e.g., ASCII art or a simple linked image) showing the data flo
 ## 4 Deployed Hedera IDs: 
 List all key IDs used in the Testnet deployment (e.g., Smart Contract IDs, HTS Token IDs, HCS Topic IDs, key Hedera Account IDs). 
 
+## 5 Technology Stack: 
+Add details here
+
 ---
 
 
