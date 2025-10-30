@@ -44,17 +44,17 @@ HTS moves the reward token between user wallets and the escrow contract. We keep
 A single escrow contract coordinates campaign state and funds. Creators register a campaign, top up the escrow with the reward token, and later close or update status. The contract tracks per-user accruals (based on off-chain X comment reads), supports reward adjustments, and releases tokens to users or returns leftovers on close.
 
  **Transaction types:** ContractCreateTransaction (deploy escrow), ContractExecuteTransaction (register campaign, update status, apply reward adjustments, release payouts, close campaign), optional ContractCallQuery (read-only calls from backend).
- **Economic justification:** moving control and accounting into a small, purpose-built contract removes counterparty risk and automates settlement while keeping the hot path on low-fee HTS transfers..  
+ **Economic justification:** moving control and accounting into a small, purpose-built contract removes counterparty risk and automates settlement while keeping the hot path on low-fee HTS transfers..
  
 ## 2 Deployment & Setup Instructions:
-Clear, bulleted, and step by step instructions on how to clone the repo, install dependencies, configure environment variables, and run the project locally on Hedera Testnet. 
-**Running Environment:** Specify the expected local running state (e.g., to launch the React frontend on and for the backend.). 
+Clear, bulleted, and step by step instructions on how to clone the repo, install dependencies, configure environment variables, and run the project locally on Hedera Testnet.
+**Running Environment:** Specify the expected local running state (e.g., to launch the React frontend on and for the backend.).
 
 ## 3 Architecture Diagram: 
-A simple diagram (e.g., ASCII art or a simple linked image) showing the data flow between your Frontend (UI), Backend/Smart Contracts, and the Hedera network/Mirror Nodes. The diagram must explicitly label the flow of data to and from Hedera.  
+A simple diagram (e.g., ASCII art or a simple linked image) showing the data flow between your Frontend (UI), Backend/Smart Contracts, and the Hedera network/Mirror Nodes. The diagram must explicitly label the flow of data to and from Hedera.
  
 ## 4 Deployed Hedera IDs: 
-List all key IDs used in the Testnet deployment (e.g., Smart Contract IDs, HTS Token IDs, HCS Topic IDs, key Hedera Account IDs). 
+List all key IDs used in the Testnet deployment (e.g., Smart Contract IDs, HTS Token IDs, HCS Topic IDs, key Hedera Account IDs).
 
 ## 5 Technology Stack: 
 Add details here
@@ -65,18 +65,18 @@ Add details here
 ## NOTES to omPrakash ,,,,,,
 
 **Security & Secrets (Critical):** DO NOT commit any private keys, files, or
-sensitive credentials. 
+sensitive credentials.
 
 **Example Configuration:** Use example configuration files (.env .example) showing
-the structure of required variables. 
+the structure of required variables.
 
 **Judge Credentials:** Instruct the judges in your DoraHacks submission notes on
 how to securely access any required test credentials (e.g., Test account ID and
-Private Key are provided in the DoraHacks submission text field for verification. ). 
+Private Key are provided in the DoraHacks submission text field for verification. ).
 
 **Code Quality:** Utilize clear function names, consistent styling, and include inline
 comments where logic is complex, ensuring the code is easily auditable by
-technical judges. 
+technical judges.
 
 **Auditability:** Ensure the core logic files ( ) are clean. Projects
 
